@@ -1,14 +1,32 @@
 {
   "name": "gatsby-source-bandsintown",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Dead simpel Gatsby plugin for sourcing events from Bandsintown API",
+  "main": "gatsby-node.js",
+  "files": [
+    "gatsby-node.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonsjolander/gatsby-source-bandsintown.git"
+  },
+  "keywords": [
+    "bandsintown",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "gatsby-source",
+    "gatsby"
+  ],
+  "author": "Anton Sjölander <anton.sjolander@hyperisland.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonsjolander/gatsby-source-bandsintown/issues"
+  },
+  "homepage": "https://github.com/antonsjolander/gatsby-source-bandsintown",
   "dependencies": {
     "node-fetch": "^2.6.0",
     "query-string": "^6.11.0"

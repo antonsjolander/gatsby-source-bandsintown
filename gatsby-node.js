@@ -10,7 +10,7 @@ exports.sourceNodes = ({
         delete configOptions.plugins
         
         const processEvent = event => {
-            const nodeId = createNodeId(`pixabay-photo-${event.id}`)
+            const nodeId = createNodeId(`bansintown-event-${event.id}`)
             const nodeContent = JSON.stringify(event)
             const nodeData = Object.assign({}, event, {
               id: nodeId,

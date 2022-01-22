@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/antonsjolander/gatsby-source-bandsintown",
   "dependencies": {
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "query-string": "^6.11.0"
   }
 }
